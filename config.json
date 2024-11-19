@@ -1,0 +1,5 @@
+{
+  "proxy_format": 1,
+  "proxy_type": "http",
+  "num_threads": 10 
+}
