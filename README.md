@@ -17,8 +17,8 @@ Specifies the format of the proxy. The value must strictly follow one of the two
 ### `proxy_type`
 Defines the type of proxies used in the application. Choose one of the following values:  
 Определяет тип используемых прокси. Выберите одно из следующих значений:
-- `socks5` (in brackets / в скобках)  
-- `http` (in brackets / в скобках)  
+- `socks5` 
+- `http`
 
 ### `num_threads`
 Sets the number of threads the application should use. Specify an integer value.  
@@ -34,7 +34,7 @@ Below is an example configuration file:
 ```json
 {
   "proxy_format": 1,
-  "proxy_type": "(socks5)",
+  "proxy_type": "socks5",
   "num_threads": 10
 }
 
